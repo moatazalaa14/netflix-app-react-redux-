@@ -36,11 +36,12 @@ test("When search toggle displaying a loading ",()=>{
 
 
 
-/*test("When a fetch all movies",()=>{
-    const action=moviesActions.fetchMovie("Batman")
-    expect(action).toEqual({
-        type:actionsType.FETCH_MOVIES,
-
-    })
+test("When a fetch all movies",()=>{
+    const mock=jest.fn()
+    let result =mock("Testing")
+    expect(result).toBeUndefined();
+    expect(mock).toHaveBeenCalled();
+    expect(mock).toHaveBeenCalledTimes(1);
+    expect(mock).toHaveBeenCalledWith("Testing");
     
-})*/
+})
