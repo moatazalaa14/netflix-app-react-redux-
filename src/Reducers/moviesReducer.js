@@ -5,7 +5,7 @@ import {
     LOADING
   } from '../actions/type';
   
-  const initialState = {
+  export const initialState = {
     text: '',
     movies: [],
     loading: false,

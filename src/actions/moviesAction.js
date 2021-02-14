@@ -1,9 +1,9 @@
 import { SEARCH_MOVIE, FETCH_MOVIES, FETCH_MOVIE, LOADING } from './type';
 import axios from 'axios';
 import { APIKey } from '../APIKey';
-
-export const searchMovie = text => dispatch => {
-  dispatch({
+import store from "../store"
+export const searchMovie = text => {
+  return store.dispatch({
     type: SEARCH_MOVIE,
     payload: text
   });

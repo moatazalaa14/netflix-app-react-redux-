@@ -10,6 +10,7 @@ import {
 
 export class SearchForm extends Component {
   onChange = e => {
+    console.log(this.props.searchMovie(e.target.value))
     this.props.searchMovie(e.target.value);
   };
 

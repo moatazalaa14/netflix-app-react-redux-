@@ -1,0 +1,15 @@
+//Search Movie
+
+what needs to be tested : Search txt for Movie
+
+
+what behavior needs to be tested : 
+        SearchMovie: will take a text and return a object that contains payload that it is a text which sended it
+
+
+//fetchMovies
+
+what needs to be tested : fetch all movies from API
+
+what behavior needs to be tested : 
+        fetchMovies : will take a string and return a array of movies depend on text 
