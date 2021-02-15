@@ -37,6 +37,11 @@ exports[`sholud be renderd navbar correctly 1`] = `
             id="react-logo"
           />
         </li>
+        <li
+          className="nav-item d-inline-block mr-4"
+        >
+          Login
+        </li>
       </ul>
     </div>
   </nav>
